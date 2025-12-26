@@ -9,4 +9,5 @@ lastchar = len(S)-1
 rev = ""
 for i in range(lastchar,-1,-1):
     rev+=S[i]
+    
 print(rev)
